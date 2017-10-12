@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ClubController {
 
-    @RequestMapping("club")
+    @RequestMapping("/")
     public String index() {
         return "hello，我来自Club客户端";
     }

@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: club
+eureka:
+  client:
+    service-url:
+      defaultZone: http://${eureka_server_address:localhost}:10001/eureka/
+server:
+  port: 8082
